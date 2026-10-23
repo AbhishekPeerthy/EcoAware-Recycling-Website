@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <meta content="Make a personal recycling pledge stored locally in your browser." name="description"/>
+  <title>
+   Community Pledge | EcoAware
+  </title>
+  <link href="css/style.css" rel="stylesheet"/>
+  <script defer="" src="js/main.js">
+  </script>
+  <script defer="" src="js/pledge.js">
+  </script>
+ </head>
+ <body>
+  <a class="skip" href="#main">
+   Skip to content
+  </a>
+  <header class="site-header">
+   <div class="container nav-wrap">
+    <a aria-label="EcoAware home" class="brand" href="index.html">
+     <span aria-hidden="true">
+      ♻
+     </span>
+     EcoAware
+    </a>
+    <button aria-controls="primary-nav" aria-expanded="false" class="menu-toggle" id="menu-toggle">
+     ☰
+     <span>
+      Menu
+     </span>
+    </button>
+    <nav aria-label="Main navigation" id="primary-nav">
+     <a href="index.html">
+      Home
+     </a>
+     <a href="about.html">
+      About
+     </a>
+     <a href="recycling-guide.html">
+      Recycling Guide
+     </a>
+     <a href="locator.html">
+      Locator
+     </a>
+     <a href="quiz.html">
+      Eco Quiz
+     </a>
+     <a href="tips.html">
+      Tips
+     </a>
+     <a aria-current="page" href="pledge.html">
+      Pledge
+     </a>
+     <a href="contact.html">
+      Contact &amp; FAQ
+     </a>
+    </nav>
+   </div>
+  </header>
+  <main id="main">
+   <section class="page-hero">
+    <div class="container">
+     <span class="eyebrow">
+      YOUR NEXT SMALL STEP
+     </span>
+     <h1>
+      Make a greener promise.
+     </h1>
+     <p class="lead">
+      Choose a simple habit and save your pledge in this browser.
+     </p>
+    </div>
+   </section>
+   <section class="section">
+    <div class="container narrow">
+     <div class="notice">
+      🔒 Your pledge stays in this browser using localStorage. It is not sent to a server or shared publicly.
+     </div>
+     <form class="form-card" id="pledge-form">
+      <fieldset>
+       <legend>
+        Choose your pledge
+       </legend>
+       <label class="choice">
+        <input name="pledge" required="" type="radio" value="I will use a reusable water bottle."/>
+        I will use a reusable water bottle.
+       </label>
+       <label class="choice">
+        <input name="pledge" type="radio" value="I will check local recycling rules before sorting waste."/>
+        I will check local recycling rules before sorting waste.
+       </label>
+       <label class="choice">
+        <input name="pledge" type="radio" value="I will reduce single-use packaging."/>
+        I will reduce single-use packaging.
+       </label>
+       <label class="choice">
+        <input name="pledge" type="radio" value="custom"/>
+        My own pledge:
+       </label>
+       <label class="sr-only" for="custom-pledge">
+        Write your own pledge
+       </label>
+       <textarea id="custom-pledge" maxlength="180" placeholder="Write a short eco-friendly promise…" rows="3"></textarea>
+      </fieldset>
+      <button class="btn" type="submit">
+       Save my pledge
+      </button>
+      <button class="btn secondary" id="clear-pledge" type="button">
+       Clear saved pledge
+      </button>
+      <p aria-live="polite" id="pledge-status" role="status">
+      </p>
+     </form>
+     <div class="saved-pledge" hidden="" id="saved-pledge">
+     </div>
+    </div>
+   </section>
+  </main>
+  <footer>
+   <div class="container footer-inner">
+    <div>
+     <strong>
+      ♻ EcoAware
+     </strong>
+     <p>
+      Small actions. Greener communities.
+     </p>
+    </div>
+    <p>
+     Educational project supporting UN SDG 11 ·
+     <a href="contact.html">
+      Contact &amp; FAQ
+     </a>
+    </p>
+   </div>
+  </footer>
+ </body>
+</html>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <meta content="Frequently asked questions and a demonstration contact form." name="description"/>
+  <title>
+   Contact &amp; FAQ | EcoAware
+  </title>
+  <link href="css/style.css" rel="stylesheet"/>
+  <script defer="" src="js/main.js">
+  </script>
+ </head>
+ <body>
+  <a class="skip" href="#main">
+   Skip to content
+  </a>
+  <header class="site-header">
+   <div class="container nav-wrap">
+    <a aria-label="EcoAware home" class="brand" href="index.html">
+     <span aria-hidden="true">
+      ♻
+     </span>
+     EcoAware
+    </a>
+    <button aria-controls="primary-nav" aria-expanded="false" class="menu-toggle" id="menu-toggle">
+     ☰
+     <span>
+      Menu
+     </span>
+    </button>
+    <nav aria-label="Main navigation" id="primary-nav">
+     <a href="index.html">
+      Home
+     </a>
+     <a href="about.html">
+      About
+     </a>
+     <a href="recycling-guide.html">
+      Recycling Guide
+     </a>
+     <a href="locator.html">
+      Locator
+     </a>
+     <a href="quiz.html">
+      Eco Quiz
+     </a>
+     <a href="tips.html">
+      Tips
+     </a>
+     <a href="pledge.html">
+      Pledge
+     </a>
+     <a aria-current="page" href="contact.html">
+      Contact &amp; FAQ
+     </a>
+    </nav>
+   </div>
+  </header>
+  <main id="main">
+   <section class="page-hero">
+    <div class="container">
+     <span class="eyebrow">
+      WE ARE HERE TO HELP YOU LEARN
+     </span>
+     <h1>
+      Questions about EcoAware?
+     </h1>
+     <p class="lead">
+      Read common questions or try the contact form demonstration.
+     </p>
+    </div>
+   </section>
+   <section class="section">
+    <div class="container split align-start">
+     <div>
+      <h2>
+       Frequently asked questions
+      </h2>
+      <details class="faq">
+       <summary>
+        Does EcoAware provide official council advice?
+       </summary>
+       <p>
+        No. EcoAware is an educational student project. For current collection rules, consult your local council.
+       </p>
+      </details>
+      <details class="faq">
+       <summary>
+        Are recycling centre results real?
+       </summary>
+       <p>
+        No. The locator currently demonstrates postcode validation and displays fictional examples only.
+       </p>
+      </details>
+      <details class="faq">
+       <summary>
+        Where does my pledge go?
+       </summary>
+       <p>
+        It stays in your current browser's localStorage until you clear it or browser data.
+       </p>
+      </details>
+      <details class="faq">
+       <summary>
+        Does the contact form send an email?
+       </summary>
+       <p>
+        No. The form demonstrates front-end validation only and does not transmit your message.
+       </p>
+      </details>
+     </div>
+     <div class="form-card">
+      <h2>
+       Contact form demo
+      </h2>
+      <p class="muted">
+       This form validates entries but does
+       <strong>
+        not
+       </strong>
+       send messages.
+      </p>
+      <form id="contact-form" novalidate="">
+       <label for="name">
+        Your name
+       </label>
+       <input autocomplete="name" id="name" minlength="2" name="name" required=""/>
+       <label for="email">
+        Email address
+       </label>
+       <input autocomplete="email" id="email" name="email" required="" type="email"/>
+       <label for="message">
+        Message
+       </label>
+       <textarea id="message" minlength="10" name="message" required="" rows="5"></textarea>
+       <button class="btn" type="submit">
+        Check form
+       </button>
+       <p aria-live="polite" id="contact-status" role="status">
+       </p>
+      </form>
+     </div>
+    </div>
+   </section>
+  </main>
+  <footer>
+   <div class="container footer-inner">
+    <div>
+     <strong>
+      ♻ EcoAware
+     </strong>
+     <p>
+      Small actions. Greener communities.
+     </p>
+    </div>
+    <p>
+     Educational project supporting UN SDG 11 ·
+     <a href="contact.html">
+      Contact &amp; FAQ
+     </a>
+    </p>
+   </div>
+  </footer>
+ </body>
+</html>

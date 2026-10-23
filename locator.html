@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <meta content="Demonstration recycling centre locator with postcode validation." name="description"/>
+  <title>
+   Recycling Centre Locator | EcoAware
+  </title>
+  <link href="css/style.css" rel="stylesheet"/>
+  <script defer="" src="js/main.js">
+  </script>
+  <script defer="" src="js/locator.js">
+  </script>
+ </head>
+ <body>
+  <a class="skip" href="#main">
+   Skip to content
+  </a>
+  <header class="site-header">
+   <div class="container nav-wrap">
+    <a aria-label="EcoAware home" class="brand" href="index.html">
+     <span aria-hidden="true">
+      ♻
+     </span>
+     EcoAware
+    </a>
+    <button aria-controls="primary-nav" aria-expanded="false" class="menu-toggle" id="menu-toggle">
+     ☰
+     <span>
+      Menu
+     </span>
+    </button>
+    <nav aria-label="Main navigation" id="primary-nav">
+     <a href="index.html">
+      Home
+     </a>
+     <a href="about.html">
+      About
+     </a>
+     <a href="recycling-guide.html">
+      Recycling Guide
+     </a>
+     <a aria-current="page" href="locator.html">
+      Locator
+     </a>
+     <a href="quiz.html">
+      Eco Quiz
+     </a>
+     <a href="tips.html">
+      Tips
+     </a>
+     <a href="pledge.html">
+      Pledge
+     </a>
+     <a href="contact.html">
+      Contact &amp; FAQ
+     </a>
+    </nav>
+   </div>
+  </header>
+  <main id="main">
+   <section class="page-hero">
+    <div class="container">
+     <span class="eyebrow">
+      EXPLORE LOCAL OPTIONS
+     </span>
+     <h1>
+      Recycling centre finder
+     </h1>
+     <p class="lead">
+      Try a demonstration search to understand what a recycling centre locator could look like.
+     </p>
+    </div>
+   </section>
+   <section class="section">
+    <div class="container narrow">
+     <div class="notice warning">
+      <strong>
+       Demo only:
+      </strong>
+      Results below are fictional examples, not real recycling centres. No live postcode lookup or map service is connected.
+     </div>
+     <form class="search-panel" id="locator-form" novalidate="">
+      <label for="postcode">
+       Enter a UK postcode
+      </label>
+      <div class="input-row">
+       <input autocomplete="postal-code" id="postcode" name="postcode" placeholder="e.g. E15 1AA" required=""/>
+       <button class="btn" type="submit">
+        Search demo
+       </button>
+      </div>
+      <p class="hint">
+       We validate the postcode format locally; it is not sent to a server.
+      </p>
+      <p class="error" id="locator-error" role="alert">
+      </p>
+     </form>
+     <div aria-live="polite" id="locator-results">
+     </div>
+     <div class="info-panel top-space">
+      <h3>
+       Need a real recycling centre?
+      </h3>
+      <p>
+       Check your council's official website for verified opening hours, accepted materials and location information.
+      </p>
+      your local council’s official recycling information
+     </div>
+    </div>
+   </section>
+  </main>
+  <footer>
+   <div class="container footer-inner">
+    <div>
+     <strong>
+      ♻ EcoAware
+     </strong>
+     <p>
+      Small actions. Greener communities.
+     </p>
+    </div>
+    <p>
+     Educational project supporting UN SDG 11 ·
+     <a href="contact.html">
+      Contact &amp; FAQ
+     </a>
+    </p>
+   </div>
+  </footer>
+ </body>
+</html>
