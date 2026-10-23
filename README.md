@@ -1,7 +1,6 @@
 # EcoAware
 
-This is the **EcoAware design**, with the same page layout, green colours,
-rounded cards, homepage illustrations, navigation and page content.
+A community recycling awareness website developed using HTML, CSS and JavaScript for the CPU4106 group project.
 
 The HTML and CSS have been expanded onto separate lines, and the JavaScript
 has been rewritten with simple variables, functions, loops and comments.
@@ -11,7 +10,6 @@ has been rewritten with simple variables, functions, loops and comments.
 1. Extract the ZIP file.
 2. Open the `EcoAware` folder.
 3. Double-click `index.html` to open it in a web browser.
-4. You do **not** need an internet connection or a web server.
 
 ## File list
 
@@ -19,7 +17,7 @@ has been rewritten with simple variables, functions, loops and comments.
 - `about.html` - background and SDG 11
 - `recycling-guide.html` - expandable recycling cards
 - `locator.html` - fictional demonstration results
-- `quiz.html` - 10-question interactive quiz
+- `quiz.html` - 10 questions interactive quiz
 - `tips.html` - practical recycling tips
 - `pledge.html` - community pledge saved in browser storage
 - `contact.html` - FAQs and demo contact form
