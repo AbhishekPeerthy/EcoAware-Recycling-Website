@@ -74,8 +74,6 @@ The project was organised using Agile Scrum principles, with responsibilities as
 | Abhishek Peerthy | Front-End Developer | Develop the website using HTML, CSS and JavaScript; implement navigation, responsive layouts and interactive features; support testing and deployment. |
 | Angel | Quality Assurance and Documentation Lead | Coordinate functional testing, record results, review requirements and organise supporting project documentation. |
 
-These responsibilities describe the team's assigned roles and do not imply that every proposed activity has been independently verified as completed.
-
 ## 5. Development Methodology
 
 EcoAware followed an Agile Scrum-based development plan over four weeks, with Week 5 allocated to final submission and presentation.
@@ -181,7 +179,7 @@ The project documentation includes functional and responsive testing activities 
 - Community pledge saving and deletion.
 - Contact form input validation.
 - Browser compatibility and HTML/CSS validation.
-- Accessibility checks and Lighthouse audits.
+- Basic accessibility checks and Lighthouse audits.
 
 Responsive testing included browser device emulation, which should not be confused with testing on physical mobile devices.
 
